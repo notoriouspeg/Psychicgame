@@ -37,6 +37,7 @@ else {
     $("#guessesleft").html(numberOfGuesses);
     alert("Nope. Try again buddy!");
     $("#lettersguessed").html(lettersGuessed)
+    // I didn't get the "letters guessed" piece working like I wanted.
 }   
     if (numberOfGuesses === 0) {
         numberOfLosses++
